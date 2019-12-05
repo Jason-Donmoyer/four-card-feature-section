@@ -1,0 +1,40 @@
+
+:root {
+    --font-poppins: 'Poppins', sans-serif;
+    --font-weight-light: 200;
+    --font-weight-normal: 400;
+    --font-weight-bold: 600;
+    --text-dark: hsl(234, 12%, 34%);
+    --text-light: hsl(229, 6%, 66%);
+    --color-cyan: hsl(180, 62%, 55%);
+    --color-red: hsl(0, 78%, 62%);
+    --color-orange: hsl(34, 97%, 64%);
+    --color-blue: hsl(212, 86%, 64%);
+}
+
+body {
+    font-family: var(--font-poppins);
+    font-size: 15px;
+}
+
+header {
+    padding: 10px 20px 20px 20px;
+}
+
+h1 {
+    font-weight: var(--font-weight-bold);
+    color: var(--text-dark);
+    text-align: center;
+}
+
+h2 {
+    font-weight: var(--font-weight-light);
+    color: var(--text-light);
+    text-align: center;
+}
+
+header p {
+    font-weight: var(--font-weight-normal);
+    color: var(--text-light);
+    text-align: center;
+}
