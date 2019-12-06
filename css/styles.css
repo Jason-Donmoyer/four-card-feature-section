@@ -49,6 +49,12 @@ header p {
     margin-top: -0.5rem;
 }
 
+/*  GRID */
+
+.grid-container {
+    display: grid;
+}
+
 /* CARD */
 
 .card {
@@ -92,4 +98,46 @@ header p {
 
 #calculator-card {
     border-top: 5px solid var(--color-blue);
+}
+
+.attribution {
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (min-width: 415px) {
+
+    header {
+        padding: 10px 20px 20px 20px;
+        width: 30%;
+    }
+
+    header h1 {
+        font-size: 1.9rem;
+    }
+
+    header h2 {
+        font-size: 1.9rem;
+    }
+
+    .flex-container {
+        display: flex;
+        width: 90%;
+        margin: auto;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .flex-item {
+        margin: 1rem;
+    }
+}
+
+@media screen and (min-width: 835px) {
+    .flex-container {
+        flex-wrap: nowrap;
+    }
 }
